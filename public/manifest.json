@@ -1,0 +1,6 @@
+{
+  "short_name": "Instabox App",
+  "name": "Frontend App",
+  "start_url": ".",
+  "display": "standalone"
+}

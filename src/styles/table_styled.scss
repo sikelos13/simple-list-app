@@ -1,0 +1,50 @@
+.TableRow_Custom {
+    cursor: pointer;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.MuiTableCell-stickyHeader {
+    background-color: #ffffff !important;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+.TableCell_NotData {
+    text-align: center !important;
+}
+
+.TableHead_Custom {
+    background-color:#ffe6e6 !important;
+}
+
+//Hide columns on screen
+@media only screen and (max-width: 865px) {
+    .TableCell_Last_Update {
+      display: none !important;
+    }
+  }
+
+@media only screen and (max-width: 685px) {
+  .TableCell_Eta {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .TableCell_Sender {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .TableCell_Status {
+    display: none !important;
+  }
+}
